@@ -5,5 +5,6 @@ int strcmp(char *s, char *t)
     if (*s == '\0')
       return 0;
   return *s - *t;
+
 }
 
